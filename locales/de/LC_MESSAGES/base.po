@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-13 13:07+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=cp932\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: gettext_tutorial1.py:10
+msgid "Hello world"
+msgstr "Hallo Welt"
+
+#: gettext_tutorial1.py:11
+msgid "This is a translatable string"
+msgstr "Das ist ein... String"
+
+#: gettext_tutorial1.py:12
+msgid "Spain is the best"
+msgstr "Spanien ist das Beste"
+
+#: gettext_tutorial1.py:13
+msgid "Japan has no summer time."
+msgstr "Japan hat kein sommer zeit"
+
