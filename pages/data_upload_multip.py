@@ -18,7 +18,7 @@ def app():
     if uploaded_file is not None:
         try:
             data = pd.read_csv(uploaded_file)
-            data.to_csv('geo_data/new_main_data.csv', index=False)
+            data.to_csv('temp_data/new_main_data.csv', index=False)
         except Exception as e:
             print(e)
             data = pd.read_excel(uploaded_file)
@@ -30,7 +30,7 @@ def app():
     st.markdown("Please note that there is a format of data files you can upload for data anaysis.")
     st.markdown("File type : csv, The numer of columns : 8, The number of Pollenstation/Pollentype : unlimited")
 
-    img = Image.open("CSVsample.PNG")
+    img = Image.open("images/CSVsample.PNG")
     st.image(img)
 
 

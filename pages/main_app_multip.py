@@ -29,11 +29,11 @@ from utils import remove_rename_cols
 
 def app():
     #breakpoint()
-    if 'new_main_data.csv' not in os.listdir('geo_data'):
+    if 'new_main_data.csv' not in os.listdir('temp_data'):
         st.markdown("Please upload data through `Upload Data` page!")
     else:
         # df_analysis = pd.read_csv('data/2015.csv')
-        df = pd.read_csv('geo_data/new_main_data.csv')
+        df = pd.read_csv('temp_data/new_main_data.csv')
         
 
     # uploaded_file = st.file_uploader("Choose a csv file")
