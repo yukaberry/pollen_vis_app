@@ -16,12 +16,12 @@ def app():
     
     #breakpoint()
     if uploaded_file is not None:
-        try:
+        #try:
             data = pd.read_csv(uploaded_file)
             data.to_csv('temp_data/new_main_data.csv', index=False)
-        except Exception as e:
-            print(e)
-            data = pd.read_excel(uploaded_file)
+        # except Exception as e:
+        #     print(e)
+        #     data = pd.read_excel(uploaded_file)
             # save data
             #st.write(data)
             #data.to_csv('geo_data/new_main_data.csv', index=False)
