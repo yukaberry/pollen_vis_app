@@ -20,7 +20,7 @@ def get_risk_level():
     risk_level_df = dwd_tb[0]
     # print(risk_level_df)
     # print(type(risk_level_df))
-    risk_level_df.to_csv('geo_data/risk_level_from_dwd.csv')
+    risk_level_df.to_csv('temp_data/risk_level_from_dwd.csv')
 
     # print(risk_level_df.iloc[0]["geringe Belastung"]) # access a cell's value
     risk_level_df["geringe Belastung"].replace(' - ', ',',regex=True, inplace=True)
@@ -28,8 +28,8 @@ def get_risk_level():
     risk_level_df["mittlere Belastung"].replace(' - ', ',',regex=True, inplace=True)
 
 
-    risk_level_df.to_csv('geo_data/risk_level_from_dwd_cleaned.csv',index=False)
-    risk_level_df_new = pd.read_csv("geo_data/risk_level_from_dwd_cleaned.csv")
+    risk_level_df.to_csv('temp_data/risk_level_from_dwd_cleaned.csv',index=False)
+    risk_level_df_new = pd.read_csv("temp_data/risk_level_from_dwd_cleaned.csv")
 
     print(risk_level_df_new)
 

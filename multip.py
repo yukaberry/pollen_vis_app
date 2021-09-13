@@ -37,14 +37,14 @@ col1.image(display, width = 350)
 col2.title("Data Visualisation Application")
 
 # Add all your applications (pages) here
-app.add_page("1.Data upload page", data_upload_multip.app)
-app.add_page("Main chart page", main_app_multip.app)
-app.add_page("Linechart (Comparing to multiple stations)",linechart_app_multip.app)
-app.add_page("Pollencount on map", pydeck_app_multip.app)
-app.add_page("Gauge chart", gauge_app_multip.app)
-app.add_page("Inactive and Missing dates",inactive_dates_app_multip.app)
+app.add_page("1. Data upload page", data_upload_multip.app)
+app.add_page("2. Main chart page", main_app_multip.app)
+app.add_page("3. Linechart (Comparing to multiple stations)",linechart_app_multip.app)
+app.add_page("4. Pollencount on map", pydeck_app_multip.app)
+app.add_page("5. Gauge chart", gauge_app_multip.app)
+app.add_page("6. Inactive and Missing dates",inactive_dates_app_multip.app)
 
-app.add_page("Dashboard page", dashbord_app_multip.app)
+app.add_page("7. Dashboard page", dashbord_app_multip.app)
 #app.add_page("folium map", folium_map_app_multip.app)
 
 
