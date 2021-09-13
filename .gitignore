@@ -1,8 +1,8 @@
 .vscode
 #*.sav    #for picked model
 *.csv
-!geo_data/risk_level_from_dwd_cleaned.csv
-!for_stephan_20.csv
+!temp_data/risk_level_from_dwd_cleaned.csv
+!temp_data/new_main_data.csv
 # !...csv >> exception to be push to a repo
 *.xlsx
 *.ipynb
@@ -11,7 +11,7 @@ data/**
 meeting_notes/**
 notebooks/**
 to_bin/**
-export_Yuka_20210519.csv
+#export_Yuka_20210519.csv
 
 
 ### Python ###
