@@ -2,7 +2,7 @@
 #*.sav    #for picked model
 *.csv
 !temp_data/risk_level_from_dwd_cleaned.csv
-!temp_data/new_main_data.csv
+#!temp_data/new_main_data.csv
 # !...csv >> exception to be push to a repo
 *.xlsx
 *.ipynb
