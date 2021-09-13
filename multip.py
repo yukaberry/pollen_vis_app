@@ -30,7 +30,7 @@ app = MultiPage()
 
 
 
-display = Image.open("PIDlogo.PNG")
+display = Image.open("images/PIDlogo.PNG")
 display = np.array(display)
 col1, col2 = st.beta_columns(2)
 col1.image(display, width = 350)
